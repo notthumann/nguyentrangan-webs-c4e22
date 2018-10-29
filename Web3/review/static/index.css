@@ -1,0 +1,9 @@
+form{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 200px;
+}
+input{
+    margin-bottom:15px;
+}
