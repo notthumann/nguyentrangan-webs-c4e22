@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>River In South America with Length Less Than 1000 Km</title>
+</head>
+<body>
+    <div id = "root">
+        <h3>These are rivers in South America with length less than 1000 km: </h3>
+        {% for r in short_rivers %}
+                {% if r.continent == "S. America" %}
+                    <div>{{ r.name }}</div>
+                {% endif %}
+        {% endfor %}
+    </div>
+</body>
+</html>

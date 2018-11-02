@@ -54,3 +54,13 @@ input{
     justify-content: center;
     align-items: center;
 }
+.text{
+    border : 2px gray solid;
+    border-radius: 5px;
+    padding : 5px;
+    width:33%;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
